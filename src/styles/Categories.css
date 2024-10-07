@@ -1,0 +1,11 @@
+.category-image {
+    width: 100px;  /* Set desired width */
+    height: 100px; /* Set desired height */
+    border-radius: 50%; /* Make image circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+span {
+    margin-top: 5px; /* Space between image and text */
+    text-align: center; /* Center align the text */
+}

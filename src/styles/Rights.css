@@ -1,0 +1,23 @@
+.custom-container {
+    background-color:black; /* Light background */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-title {
+    color:white; /* Dark text color */
+    font-size: 1rem; /* Decreased font size */
+    font-weight: normal; /* Keep it bold */
+    margin-bottom: 20px; /* Space between title and text */
+  }
+  
+  .custom-text {
+    color:white; /* Dark text color */
+    font-size: 0.9rem; /* Slightly larger font size */
+    line-height: 1.6; /* Improved line spacing */
+  }
+  .container{
+    max-width: 100% !important;
+  }
+  

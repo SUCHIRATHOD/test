@@ -1,0 +1,70 @@
+/* src/Navbar.css */
+
+.position-relative {
+    position: relative; /* Positioning context for the icon */
+  }
+  
+  .position-absolute {
+    position: absolute; /* Positioning the icon absolutely */
+    right: 10px; /* Adjust based on your padding needs */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    background: transparent; /* Optional: to remove background */
+    border: none; /* Optional: to remove border */
+    color: #495057; /* Icon color */
+  }
+  
+  .shadow-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values for shadow effect */
+  }
+  
+  /* New styles for buttons */
+  .nav-link {
+    color: black !important; /* Set nav link text color to black */
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Optional: Change color on hover */
+  }
+  
+  .button-link {
+    color: black !important; /* Set button link color to black */
+    text-decoration: none; /* Ensure no underline */
+  }
+  
+  .button-link:hover {
+    color: #0056b3; /* Optional: Change color on hover */
+  }
+  /* src/Navbar.css */
+  
+  .logo {
+    width: 60px; /* Adjust the width as needed */
+    height:60px ; /* Maintain aspect ratio */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    border-radius: 50%;
+  }
+  
+  /* Existing styles */
+  .position-relative {
+    position: relative; /* Positioning context for the icon */
+  }
+  
+  .position-absolute {
+    position: absolute; /* Positioning the icon absolutely */
+    right: 10px; /* Adjust based on your padding needs */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    background: transparent; /* Optional: to remove background */
+    border: none; /* Optional: to remove border */
+    color: #495057; /* Icon color */
+  }
+  
+  .shadow-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values for shadow effect */
+  }
+  
+  /* Style for the button links */
+  .button-link {
+    color: black; /* Change text color to black */
+  }

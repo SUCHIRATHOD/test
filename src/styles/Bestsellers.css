@@ -1,0 +1,84 @@
+.bestsellers-section {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 100%; /* Optional: max width for the container */
+}
+
+.bestsellers-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.bestsellers-description {
+    text-align: left;
+    color: #666; 
+}
+
+.bestsellers-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-between; /* Space out cards evenly */
+}
+
+.bestsellers-card {
+    flex: 1 1 calc(20% - 20px); /* Responsive width */
+    margin: 10px; /* Space around cards */
+    max-width: 260px; /* Maximum width for the cards */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.2s; /* Transition for hover effect */
+    overflow: hidden; /* Clip the overflow */
+}
+
+.bestsellers-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.bestsellers-image {
+    width: 100%; /* Full width for the image */
+    height: 30vh; /* Maintain aspect ratio */
+}
+
+.bestsellers-card-body {
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center text inside the card */
+}
+
+.price-original {
+    text-decoration: line-through; /* Strike through original price */
+    color: #999; /* Grey color for original price */
+}
+
+.price-offer {
+    color: #e63946; /* Highlight offer price */
+    font-weight: bold; /* Bold font for offer price */
+}
+
+.discount-label {
+    color: #2a9d8f; /* Color for discount label */
+}
+
+.item-details {
+    font-size: 0.9em; /* Smaller font for item details */
+    color: #555; /* Darker grey for details */
+}
+
+.delivery-details {
+    margin-top: 10px; /* Space above delivery details */
+    font-size: 0.8em; /* Smaller font size */
+    color: #555; /* Dark grey color */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .bestsellers-card {
+        flex: 1 1 calc(45% - 20px); /* Two cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .bestsellers-card {
+        flex: 1 1 calc(100% - 20px); /* Full width on very small screens */
+    }
+}

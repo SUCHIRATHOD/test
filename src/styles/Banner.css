@@ -1,0 +1,49 @@
+.banner-container {
+    width: 100%; /* Full width for the container */
+    display: flex; /* Use flexbox for positioning */
+    justify-content: center; /* Center the banner horizontally */
+    
+}
+
+.banner {
+    background-image: url('https://www.shutterstock.com/image-photo/assortment-raw-meats-on-grey-260nw-1766218553.jpg');
+    background-size: cover; /* Make the background image cover the entire div */
+    background-position: center; /* Center the background image */
+    height: 300px; /* Set the height of the banner */
+    width: 80%; /* Set the width for mobile */
+    display: flex; /* Use flexbox for positioning */
+    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: center; /* Center vertically */
+    color: black; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+    padding: 20px; /* Add padding inside the banner */
+    margin: 30px auto; /* Center the banner with top/bottom margin */
+    box-sizing: border-box; /* Ensure padding is included in height and width */
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    display: flex; /* Use flexbox for vertical stacking */
+    flex-direction: column; /* Stack title and subtitle vertically */
+}
+
+.banner-title {
+    font-size: 2rem; /* Adjust title size */
+    margin: 0; /* Remove margin */
+    color: white;
+}
+
+.banner-subtitle {
+    font-size: 1rem; /* Adjust subtitle size */
+    margin-top: 0.5rem; /* Add some space between title and subtitle */
+    margin: 0; /* Remove margin */
+    color: white;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+    .banner {
+        width: 100%; /* Full width for larger screens */
+    }
+}

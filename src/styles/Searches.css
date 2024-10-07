@@ -1,0 +1,30 @@
+.popular-searches {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  .title {
+    text-align: left; /* Align title to the left */
+    color: #00796b; /* Darker title color */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .search-category {
+    margin-bottom: 15px; /* Space between categories */
+    
+  }
+  
+  .search-category h4 {
+    color: #343a40; /* Darker color for category titles */
+    margin: 10px 0; /* Space around category title */
+    font-size: 15px;
+  }
+  
+  .search-category p {
+    color: #495057; /* Text color for items */
+    font-size: 0.9rem; /* Adjust font size */
+    margin: 0; /* Remove default margin */
+  }
+  

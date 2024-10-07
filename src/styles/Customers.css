@@ -1,0 +1,49 @@
+.bestsellers-section {
+    padding: 20px; /* Padding around the section */
+}
+
+.bestsellers-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 10px; /* Space below the title */
+    text-align: left; /* Align text to the left */
+}
+
+.bestsellers-subtitle {
+    font-size: 16px; /* Subtitle font size */
+    color: #666; /* Grey color for the subtitle */
+    margin-bottom: 20px; /* Space below the subtitle */
+    text-align: left; /* Align text to the left */
+}
+
+.bestsellers-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: space-between; /* Space cards evenly */
+}
+
+.bestsellers-card {
+    flex: 1 1 calc(20% - 20px); /* Responsive width */
+    margin: 10px; /* Margin around each card */
+    max-width: 250px; /* Maximum width for the cards */
+    overflow: hidden; /* Clip overflow */
+}
+
+.bestsellers-image {
+    width: 100%; /* Full width for the image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .bestsellers-card {
+        flex: 1 1 calc(45% - 20px); /* Two cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .bestsellers-card {
+        flex: 1 1 calc(100% - 20px); /* Full width on very small screens */
+    }
+}

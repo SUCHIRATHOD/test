@@ -1,0 +1,50 @@
+.cities-box {
+    background-color: #e0f7fa; /* Light blue background for the entire box */
+    max-width: 100%!important;
+    border: 1px solid #b2ebf2; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the box */
+    padding: 8px;
+  }
+  .serve-main{
+    width: 100%;
+  }
+  .cities-title {
+    margin: 0; /* Remove default margin */
+    color: #00796b; /* Darker text color for the title */
+   justify-content: left;
+    margin-bottom: 15px; /* Space below the title */
+    font-size: 12px;
+  }
+  
+  .cities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the row */
+   
+  }
+  
+  .city-col {
+    display: flex; /* Flexbox for alignment */
+  
+    margin-bottom: 15px; /* Space below each city box */
+  }
+  
+  .city-box {
+    background-color: #ffffff; /* White background for city boxes */
+    border: 1px solid #b2ebf2; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 8px; /* Reduced padding */
+    text-align: center; /* Center align text */
+    width: 100%; /* Full width of the column */
+    max-width: 100px; /* Set a maximum width for smaller boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    font-size: 0.9rem; /* Slightly smaller text */
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    max-width: 100%!important;
+  }
