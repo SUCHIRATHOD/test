@@ -11,6 +11,14 @@ const Categories = () => {
     "https://thumbs.dreamstime.com/b/raw-chicken-plate-9246663.jpg",
     "https://media.istockphoto.com/id/173234780/photo/group-of-brown-raw-eggs-one-is-broken-isolated-white.jpg?s=612x612&w=0&k=20&c=Ezdfb242lOnxeYPA2nyEX6IKgjDpIfXI-g-in-ShSnE=",
   ];
+  const picture = [
+    "https://images.pexels.com/photos/929137/pexels-photo-929137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/53148/shish-kebab-meat-skewer-vegetable-skewer-meat-products-53148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  ]
 
   const imageNames = [
     "Fresh Skipjack Tuna",
@@ -20,6 +28,14 @@ const Categories = () => {
     "Raw Chicken",
     "Brown Raw Eggs",
   ];
+  const pictureNames = [
+    "Bread",
+    "Vegitables",
+    "Burgur",
+    "Momos",
+    "Past",
+    "Fish",
+  ]
 
   return (
     <Container className="my-4">
@@ -37,10 +53,10 @@ const Categories = () => {
           </Col>
         ))}
         {/* Add another column with the same images and names */}
-        {images.map((image, index) => (
+        {picture.map((image, index) => (
           <Col xs={6} md={4} lg={2} key={`duplicate-${index}`} className="d-flex flex-column align-items-center mb-3">
             <img src={image} alt={`Category ${index + 1}`} className="category-image" />
-            <span>{imageNames[index]}</span>
+            <span>{pictureNames[index]}</span>
           </Col>
         ))}
       </Row>

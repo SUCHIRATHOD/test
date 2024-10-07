@@ -14,7 +14,7 @@ const Bestsellers = () => {
       discount: "8%"
     },
     {
-      image: "https://images.pexels.com/photos/23876843/pexels-photo-23876843/free-photo-of-meat-for-cooking-on-tray.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/23710827/pexels-photo-23710827/free-photo-of-meat-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       name: "Mutton Rogan",
       weight: "1 kg",
       pieces: "8-10 Pieces",
@@ -24,7 +24,7 @@ const Bestsellers = () => {
       discount: "8%"
     },
     {
-      image: "https://images.pexels.com/photos/23876843/pexels-photo-23876843/free-photo-of-meat-for-cooking-on-tray.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/15112757/pexels-photo-15112757/free-photo-of-meat-steak-on-grill-on-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       name: "Fish Tikka",
       weight: "400 g",
       pieces: "4-6 Pieces",
@@ -34,7 +34,7 @@ const Bestsellers = () => {
       discount: "8%"
     },
     {
-      image: "https://images.pexels.com/photos/23876843/pexels-photo-23876843/free-photo-of-meat-for-cooking-on-tray.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/15484707/pexels-photo-15484707/free-photo-of-raw-skewers-on-a-stall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       name: "Paneer Tikka",
       weight: "500 g",
       pieces: "10-12 Pieces",
@@ -44,7 +44,7 @@ const Bestsellers = () => {
       discount: "9%"
     },
     {
-      image: "https://images.pexels.com/photos/23876843/pexels-photo-23876843/free-photo-of-meat-for-cooking-on-tray.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       name: "Beef Steak",
       weight: "700 g",
       pieces: "2-4 Pieces",
