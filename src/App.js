@@ -10,6 +10,7 @@ import Serve from './components/Serve'
 import Banner from './components/Banner'
 import Searches from './components/Searches'
 import Rights from './components/Rights'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
   return (
